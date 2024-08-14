@@ -1,0 +1,166 @@
+.main{
+    background-color: #10301d;
+}
+.one{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./images/flag.webp);
+    background-repeat: none; */
+}
+  
+
+.pakistan{
+    color: white;
+    font-size: 15vw;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+.minar{
+    position: absolute;
+    z-index: 3;
+
+    width: 30%;
+
+}
+.badshahi{
+    width: 20%;
+    position: absolute;
+    z-index: 4;
+    bottom:1%;
+    left: 54%;
+}
+.faisal{
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+    bottom:1%;
+    right: 54%;
+}
+.qila{
+  width: 18%;
+  position: absolute;
+    z-index: 1;
+    bottom:1%;
+    right: 72%;
+}
+.multan{
+  width: 20%;
+  position: absolute;
+  z-index: 4;
+  bottom:1%;
+  left:72%;
+}
+
+.flag{
+    width: 10%;
+    position: absolute;
+    right: 85%;
+    top: 20%;
+}
+/* .light{
+  width: 20%;
+
+  right: 100%;
+  top: 100%;
+} */
+
+.two{
+  display: flex;
+  margin-top: 8%;
+  background-color: rgb(105, 42, 0);
+  height: 100vh;
+}
+
+.left-two, .right-two{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  margin-top: 10%;
+  color: rgb(0, 0, 0);
+}
+
+.left-two svg{
+  transform: rotateX(50deg) scale(1.2);
+  width:100%;
+  /* margin-top: 20vh; */
+}
+.newH{
+  font-size: 40px;
+  line-height: 1.5;
+}
+.text{
+  width: 70%;
+}
+.newHColor{
+  color: #10301d;
+  font-weight: 700;
+}
+/* .three{
+  height: 100vh;
+}
+   */
+
+   .three{
+    /* background-color: rgb(250, 250, 250); */
+    background-color: #10301d;
+    /* height: 100vh; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+.card{
+  border-radius: 10px;
+}
+.card1{
+  margin-top: -150px;
+}
+/* .card2{
+  margin-left: 190px;
+} */
+.card3, .card4, .card5{
+  margin-top: 20px;
+}
+.card1, .card3, .card5{
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card4{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+.map{
+  width: 80%;
+  filter: drop-shadow(1px 1px 10px rgb(150, 145, 145));
+}
+.legacy{
+  color: white;
+  margin-top: 4pc;
+  text-align: center;
+  margin-bottom: 4pc;
+}
+
+.card-text{
+  font-size: 12px;
+}
+.carP{
+  color: #10301d;
+  font-weight: 700;
+}
